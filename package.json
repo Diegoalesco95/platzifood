@@ -1,0 +1,16 @@
+{
+  "name": "platzifood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "author": "Diego Osorio <Diegoalesco95@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
