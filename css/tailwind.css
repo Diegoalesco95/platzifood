@@ -2,8 +2,38 @@
 
 @tailwind components;
 
-@tailwind utilities;
-
-h1 {
-  @apply text-3xl text-green-700 font-semibold;
+.card {
+  @apply mx-2 p-1 mt-4 rounded-lg;
 }
+
+@screen md {
+  .card {
+    @apply w-1/2 flex my-3 ml-2 p-0 bg-white shadow-lg;
+  }
+}
+
+.form-control {
+  @apply w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300;
+}
+
+.form-control:hover {
+  @apply bg-white;
+}
+
+.form-control:focus {
+  @apply outline-none shadow-outline bg-white;
+}
+
+.btn {
+  @apply mx-auto my-2 px-4 py-1 rounded shadow-xl block;
+}
+
+.btn:hover {
+  @apply shadow-none bg-gray-700 text-white;
+}
+
+.btn-primary {
+  @apply bg-yellow-600;
+}
+
+@tailwind utilities;
