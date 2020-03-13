@@ -4,14 +4,6 @@
 
 @tailwind utilities;
 
-@responsive {
-  .rotate-45 {
-    transform: rotate(45deg);
-  }
-}
-
-@variants hover {
-  .zoom {
-    transform: scale(2);
-  }
+h1 {
+  @apply text-3xl text-green-700 font-semibold;
 }

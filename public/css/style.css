@@ -14122,16 +14122,10 @@ video {
   transition-duration: 1000ms;
 }
 
-.rotate-45 {
-  transform: rotate(45deg);
-}
-
-.zoom {
-  transform: scale(2);
-}
-
-.hover\:zoom:hover {
-  transform: scale(2);
+h1 {
+  font-size: 1.875rem;
+  color: #2f855a;
+  font-weight: 600;
 }
 
 @media (min-width: 640px) {
@@ -27632,10 +27626,6 @@ video {
 
   .sm\:duration-1000 {
     transition-duration: 1000ms;
-  }
-
-  .sm\:rotate-45 {
-    transform: rotate(45deg);
   }
 }
 
@@ -41138,10 +41128,6 @@ video {
   .md\:duration-1000 {
     transition-duration: 1000ms;
   }
-
-  .md\:rotate-45 {
-    transform: rotate(45deg);
-  }
 }
 
 @media (min-width: 1024px) {
@@ -54643,10 +54629,6 @@ video {
   .lg\:duration-1000 {
     transition-duration: 1000ms;
   }
-
-  .lg\:rotate-45 {
-    transform: rotate(45deg);
-  }
 }
 
 @media (min-width: 1280px) {
@@ -68147,9 +68129,5 @@ video {
 
   .xl\:duration-1000 {
     transition-duration: 1000ms;
-  }
-
-  .xl\:rotate-45 {
-    transform: rotate(45deg);
   }
 }
