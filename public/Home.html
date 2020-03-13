@@ -23,10 +23,11 @@
         style="background-image: url('https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&h=1080&q=80')"
       ></div>
 
-      <div class="container mx-auto py-4 md:flex md:flex-wrap">
+      <section class="container mx-auto py-4 md:flex md:flex-wrap">
         <div class="w-full content-center">
           <h1 class="uppercase text-2xl font-bold text-gray-900 text-center underline">Nuestro Menu</h1>
         </div>
+
         <div class="md:flex md:flex-row">
           <div class="mx-2 md:my-3 md:ml-2 mt-4 md:w-1/2 md:flex p-1 md:p-0 md:shadow-lg md:bg-white rounded-lg">
             <div class="md:w-1/2 md:p-0">
@@ -108,7 +109,57 @@
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="w-full px-2 my-4 md:flex md-flex-row">
+          <form class="bg-white w-full rounded-lg py-3 px-4">
+            <div class="my-2">Nombre:</div>
+            <input
+              class="w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300 hover:bg-white focus:outline-none focus:shadow-outline placeholder-secondary"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nombre"
+            />
+            <div class="my-2">Email:</div>
+            <input
+              class="w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300 hover:bg-white focus:outline-none focus:shadow-outline placeholder-secondary"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+            <div class="my-2">Dirección:</div>
+            <input
+              class="w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300 hover:bg-white focus:outline-none focus:shadow-outline placeholder-secondary"
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Dirección"
+            />
+            <div class="my-2">Teléfono:</div>
+            <input
+              class="w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300 hover:bg-white focus:outline-none focus:shadow-outline placeholder-secondary"
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Teléfono"
+            />
+            <div class="my-2">Comentarios:</div>
+            <textarea
+              class="w-full leading-snug text-gray-800 py-1 px-4 border border-blue-300 rounded bg-gray-300 hover:bg-white focus:outline-none focus:shadow-outline placeholder-secondary focus:bg-white"
+              cols="30"
+              rows="10"
+              name="comments"
+              id="comments"
+            ></textarea>
+            <button
+              class="mx-auto my-2 px-4 py-1 rounded shadow-xl block bg-gray-500 hover:shadow-none hover:bg-gray-700 hover:text-white "
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="w-full bg-secondary text-white">
       <div class="py-2 md:flex md:flex-row-reverse justify-around">
