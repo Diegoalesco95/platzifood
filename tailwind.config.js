@@ -1,4 +1,8 @@
 module.exports = {
+  purge: {
+    enabled: true,
+    content: ['./public/**/*.html'],
+  },
   theme: {
     fontFamily: {
       display: ['Gilroy', 'sans-serif'],
