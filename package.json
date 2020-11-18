@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1",
+    "postcss-cli": "^8.0.0",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
