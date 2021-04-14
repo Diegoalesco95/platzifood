@@ -10,9 +10,9 @@
   "author": "Diego Osorio <Diegoalesco95@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
+    "autoprefixer": "^10.0.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^2.0.0"
   },
   "devDependencies": {
     "cssnano": "^4.1.10"
