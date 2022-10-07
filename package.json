@@ -5,16 +5,20 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss css/tailwind.css -o public/css/style.css",
-    "watch": "postcss css/tailwind.css -o public/css/style.css -w"
+    "watch": "postcss css/tailwind.css -o public/css/style.css -w",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Diego Osorio <Diegoalesco95@hotmail.com>",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^2.2.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "snyk": true
 }
